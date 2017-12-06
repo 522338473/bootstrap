@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的网页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+<!--头部信息-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">OldBoyEdu</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Linux学院 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Python学院</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">更多学院<span class="caret"></span></a>
+
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">好好学习</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">联系我啊 <span class="caret"></span></a>
+
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!--轮播图片-->
+<header class="header-index">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/top1.png" width="100%" alt="...">
+                <div class="carousel-caption">
+                    <div class="h1 my-banner-title"><strong>姬灵焰</strong></div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/top2.png" width="100%" alt="...">
+                <div class="carousel-caption">
+                    <div class="h1 my-banner-title">紫女</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/top3.png" width="100%" alt="...">
+                <div class="carousel-caption">
+                    <div class="h1 my-banner-title">雪女</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/top4.png" width="100%" alt="...">
+                <div class="carousel-caption">
+                    <div class="h1 my-banner-title">赤练</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls切换按钮 -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">up</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">down</span>
+        </a>
+    </div>
+</header>
+
+<!--巨幕-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="rol-md-6">
+            <div class="jumbotron text-center">
+                <h1>秦时明月出新版了</h1>
+                <p>等了我好多年了啊啊啊</p>
+                <hr width="20%">
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">点击有惊喜</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--图片展示-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="thumbnail"><img src="img/denglu.png" alt=""></div>
+        </div>
+        <div class="col-md-6 col-sm-6 text-center">
+            <h2>使用<strong>Bootstrap</strong>搭建的</h2>
+            <h2>登陆页面</h2>
+            <span class="my-line"></span>
+            <p class="lead">
+                使用表单、按钮组件搭建
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6 text-center">
+            <h2>使用Bootstrap搭建的</h2>
+            <h2>信息采集单</h2>
+            <span class="my-line"></span>
+            <p class="lead">
+                使用表单、页头、面板组件、进度条等组件搭建
+            </p>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="thumbnail"><img src="img/xinxicaiji.png" alt=""></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="thumbnail"><img src="img/houtaiguanli.png" alt=""></div>
+        </div>
+        <div class="col-md-6 col-sm-6 text-center">
+            <h2>使用<strong>Bootstrap</strong>搭建的</h2>
+            <h2>后台管理</h2>
+            <span class="my-line"></span>
+            <p class="lead">
+                使用导航，面板，组合按钮等组件搭建
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6 text-center">
+            <h2>使用Bootstrap搭建的</h2>
+            <h2>博客页面</h2>
+            <span class="my-line"></span>
+            <p class="lead">
+                使用模板等组件搭建
+            </p>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="thumbnail"><img src="img/daobanbk.png" alt=""></div>
+        </div>
+    </div>
+</div>
+
+<!--心路历程-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="rol-md-6">
+            <div class="jumbotron text-center">
+                <h3>心路历程</h3>
+                <p>找材料真的是好麻烦，一般时间浪费在这上边了.......</p>
+                <hr width="20%">
+                <p>一个早上才写了这么点</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<!--我的小女友们-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="img/Bootstrap_i1.png" alt="...">
+            </a>
+            <p><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default"
+                                                                             role="button">Dislike</a></p>
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="img/Bootstrap_i2.png" alt="...">
+            </a>
+            <p><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default"
+                                                                             role="button">Dislike</a></p>
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="img/Bootstrap_i3.png" alt="...">
+            </a>
+            <p><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default"
+                                                                             role="button">Dislike</a></p>
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="img/Bootstrap_i4.png" alt="...">
+            </a>
+            <p><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default"
+                                                                             role="button">Dislike</a></p>
+        </div>
+        <h3 class="text-center">好多前女友。。。。我晕</h3>
+    </div>
+</div>
+
+<!--尾部-->
+<div class="container">
+    <div class="row ">
+        <div class="col-md-6">
+            <p>学好bootstrap是一门可以装逼的技能</p>
+            <p>所以一定要学好</p>
+        </div>
+
+
+        <div class="col-md-1 col-md-offset-5"><a class="btn btn-success btn-lg" href="#" role="button">点击有惊喜</a></div>
+        <br>
+        <br>
+    </div>
+</div>
+
+<!--版权-->
+<div class="container-fluid">
+    <div class="row " style="background-color: black;color: white">
+        <div class="rol-md-12 text-center">&copy;复制粘贴一把锁，前端老王子</div>
+    </div>
+</div>
+<!--动态代码-->
+<script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
